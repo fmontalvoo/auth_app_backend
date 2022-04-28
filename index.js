@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const auth = require('./routes/auth.route.js');
+const auth = require('./routes/auth.route');
 
 app.use('/auth', auth);
 
